@@ -49,3 +49,11 @@ var shirt = {
 console.log(shirt.color);
 console.log(shirt['color']);
 console.log(shirt.sizes[3]);
+
+/*======================
+    Loops
+======================*/
+//for loop
+for (var i=0; i<4;) {
+    console.log(fruits[i]);
+}
