@@ -54,6 +54,10 @@ console.log(shirt.sizes[3]);
     Loops
 ======================*/
 //for loop
-for (var i=0; i<4;) {
+//var i=0 set the start condition of the loop
+//i<4  gives loop a condition where it should run
+//i++ increases the valur of i by 1
+
+for (var i=0; i<4; i++) {
     console.log(fruits[i]);
 }
