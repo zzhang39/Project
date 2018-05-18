@@ -29,14 +29,14 @@ How to name your variables
 */
 
 /*======================
-    Complex Datatypes - Array and Objects
+    Complex Datatypes - Arrays and Object LITERALS
 ======================*/
 // Saving multiple values into one variable
-var fruits = ['apple','banana','strawberry','kiwi'];
+var fruits = ['apple','banana','strawberry','kiwi','watermelon'];
 console.log(fruits[2]);
 
 //Object use {}
-
+//Object LITERALS
 var shirt = {
     style: 't-shirt',
     color: 'red',
@@ -57,7 +57,43 @@ console.log(shirt.sizes[3]);
 //var i=0 set the start condition of the loop
 //i<4  gives loop a condition where it should run
 //i++ increases the valur of i by 1
-
-for (var i=0; i<4; i++) {
+console.log(fruits); // just log the fruit
+for (var i=0; i<fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+
+/*======================
+    Evaluators
+======================*/
+
+/*
+<
+>
+<=
+>=
+
+== equal to
+=== REALLY equal to  //check data and data type
+
+3 == '3' TRUE
+3 === '3' FALSE
+*/
+
+console.log(3 === '3');
+
+/*======================
+    Conditionals
+======================*/
+
+//if (3 === '3'|| true) {
+if (3 === '3'&& true) {
+    //The code in here will only run if the condition inside of ()
+    // is true
+    console.log('the consition is true');
+} else {
+    //the code in here will only run if the condition is false
+    console.log('the consition is false');
+}
+
+
