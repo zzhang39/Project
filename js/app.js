@@ -19,7 +19,7 @@ var name ='Eric';
 var some_number =89; //this is an integer datatype
 var a_boolean = true;  //this is a boolean datatype
 
-/*
+/*1111
 How to name your variables
 1. You can use [a-z] [A-Z] [0-9]
 2. Variable NEVER start with number
